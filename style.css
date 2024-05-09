@@ -1,0 +1,421 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main_div{
+    height: 100vh;
+    display: flex;
+
+}
+
+.main_div svg{
+    height: 100%;
+    width: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+/* Login page styling starting from here */
+/*  */
+
+.main_div1{
+    display: flex;
+    height: 100vh;
+    max-width: 1440px;
+    margin: auto;
+    align-items: center;
+}
+
+
+
+.login_left{
+    height: 100%;
+    flex: 1;
+}
+
+.login_left_div{
+    max-width: 370px;
+    margin: auto;
+    padding: 0px 8px;
+}
+
+.login_left_h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: #40464e;
+}
+.login_left_p{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #98a1ac;
+    font-size: 400;
+}
+
+.login_right{
+    height: 100%;
+    flex: 1;
+    width: 100%;
+}
+
+.login_right_div{
+    padding-top: 120px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.login_right_h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    color: #40464e;
+}
+
+
+.login_right_p{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #98a1ac;
+    font-size: 400;
+}
+
+.form{
+    margin-top: 50px;
+}
+
+.form_input{
+    flex: 1;
+    width: 100%;
+    border-radius: 8px;
+    padding: 12px 10px;
+    font-size: 15px;
+    color: #9fa2a6;
+    font-weight: 500;
+    border: 1px solid #eef1f4;
+    /* border-color: #eef1f4; */
+    outline-color: #81bbf9;
+}
+
+.form_input::placeholder{
+    /* color: #b1b8c1; */
+    color: #b1b8c1;
+    font-size: 13px;
+}
+
+.form_div i{
+    position: absolute;
+    color: #b1b8c1;
+    cursor: pointer;
+    right: 12px;
+    top: 33%;
+}
+
+.form_div{
+    margin-top: 12px;
+    position: relative;
+}
+
+.form_div1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 4px;
+    margin-top: 10px;
+}
+
+
+.form_div1_input{
+    height: 12px;
+    width: 12px;
+    outline: red;
+}
+
+.form_div1_lable{
+    color: #9fa8b3;
+    font-weight: 400;
+    font-size: 12px;
+    user-select: none;
+    padding-top: 2px;
+}
+
+.button{
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 0px;
+    background-color: #1a85f3;
+    border-radius: 10px;
+    outline: 0px;
+    border: 0px;
+    cursor: pointer;
+}
+.button1{
+    margin-top: 130px;
+    margin-bottom: 12px;
+}
+.forget_password{
+    text-align: center;
+    color: #1a85f3;
+    font-size: 12px;
+    font-family: 600;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 16px;
+    letter-spacing: 0.4px;
+}
+
+.or_main_div{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 40px;
+}
+
+.or_main_div div{
+    border: 0.6px solid #e7ebef;
+    flex: 1;
+}
+
+.or_main_div p{
+    color: #a5adb8;
+    font-size: 13px;
+}
+
+
+.border{
+    border: 0.6px solid #e7ebef;
+    width: 100%;
+    margin-top: 22px;
+}
+
+.first_time_main{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    margin-top: 22px
+}
+
+
+.first_time_main_p1{
+    color: #797f89;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.first_time_main_p2{
+    color: #1a85f3;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 6px 0px;
+    user-select: none;
+}
+
+.other_login_main{
+    margin-top:16px;
+}
+
+.other_login_main1{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid #e7ebf0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.other_login_main1_1{
+    padding: 8px 0px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.other_login_main1_2{
+    padding: 11px 0px;
+    background-color: #e7ebf0;
+}
+
+.other_login_main1_2_1{
+    width: 2px;
+}
+
+.other_login_main1_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.other_login_main1_3 p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8d929b;
+    user-select: none;
+}
+
+.other_login_main1_1 i{
+    font-size: 25px;
+    color: #000;
+}
+
+.steps_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+.steps_main1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.steps_main1:hover{
+    border-color: #1a85f4;
+    transition: all 0.5s;
+}
+
+.steps_main1:hover .steps_main1-1{
+    background-color:#1a85f4;
+    transition: all 0.5s;
+}
+.steps_main1-1{
+    border-radius: 50px;
+    background-color: #d9dfe7;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+}
+
+/* .steps_main1-1:hover{
+    background-color:#1a85f4;
+    transition: all 0.5s;
+} */
+
+
+.login_right_div-1{
+    padding-top: 160px;
+}
+
+
+.form_div-1{
+    margin-top: 24px;
+}
+
+
+
+
+
+/*  */
+
+/* All responsiveness start fron here */
+
+/*  */
+
+@media (max-width: 1000px) {
+    .main_div1{
+        display: flex;
+        flex-direction: column;
+    }
+    .login_right_div{
+        padding-top: 90px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .first_time_main{
+        padding-bottom: 2px;
+    }
+    .button1{
+        margin-top: 70px;
+    }
+}
+
+
+.check_strong_password_main{
+    background-color: #d9dfe7;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 12px;
+    height: 3px;
+}
+
+.check_strong_password{
+    background-color: #ffc542;
+    border-radius: 30px;
+    height: 100%;
+    width: 40%;
+}
+
+.check_strong_password_1{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-top: 14px;
+}
+
+.check_strong_password_1_2{
+    color: #a3b0c2;
+    font-size: 13px;
+    font-weight: 500;
+}
+.check_strong_password_1_1{
+    background-color: #a3b0c2;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    margin-left: 3px;
+}
+
+.check_strong_password_2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 12px;
+}
+
+.check_strong_password_2{
+    color: #64ddac;
+    font-size: 13px;
+    font-weight: 500;
+}
