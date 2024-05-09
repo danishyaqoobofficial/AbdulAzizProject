@@ -11,16 +11,9 @@ body{
 
 .main_div{
     height: 100vh;
-    display: flex;
-
+    max-width: 1440px;
+    margin: auto;
 }
-
-.main_div svg{
-    height: 100%;
-    width: 10%;
-}
-
-
 
 
 
@@ -65,7 +58,7 @@ body{
 .login_left_h2{
     text-align: center;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 32px;
     color: #40464e;
 }
@@ -347,29 +340,7 @@ body{
 
 
 
-/*  */
 
-/* All responsiveness start fron here */
-
-/*  */
-
-@media (max-width: 1000px) {
-    .main_div1{
-        display: flex;
-        flex-direction: column;
-    }
-    .login_right_div{
-        padding-top: 90px;
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-    .first_time_main{
-        padding-bottom: 2px;
-    }
-    .button1{
-        margin-top: 70px;
-    }
-}
 
 
 .check_strong_password_main{
@@ -418,4 +389,80 @@ body{
     color: #64ddac;
     font-size: 13px;
     font-weight: 500;
+}
+
+
+.login_left_p-1{
+    text-align: left;
+}
+
+.login_left_h2-1{
+    text-align: left;
+}
+
+.main_div_div{
+    position: relative;
+}
+
+.login_left_div-1{
+    position: absolute;
+    top: 60%;
+    left: 14%;
+}
+
+
+
+
+
+
+
+
+
+/*  */
+
+/* All responsiveness start fron here */
+
+/*  */
+
+@media (max-width: 1000px) {
+    .main_div1{
+        display: flex;
+        flex-direction: column;
+    }
+    .login_right_div{
+        padding-top: 90px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .first_time_main{
+        padding-bottom: 2px;
+    }
+    .button1{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 700px) {
+    .login_left_div-1{
+        left: 4%;
+    }
+    .login_left_h2-1{
+        font-size: 20px;
+    }
+    .login_left_p-1{
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .login_left_div-1{
+        left: 3%;
+    }
+    .login_left_h2-1{
+        font-size: 18px;
+    }
+    .login_left_p-1{
+        font-size: 12px;
+    }
 }
