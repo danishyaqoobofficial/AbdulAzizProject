@@ -430,6 +430,7 @@ body{
 .profile{
     display: flex;
     align-items: start;
+    /* display: none; */
 }
 
 .profile_left{
@@ -438,7 +439,7 @@ body{
     height: 100vh;
     overflow: auto;
     border-radius: 0px 18px 18px 0px;
-    padding-top: 30px;
+    padding-top: 46px;
 }
 
 
@@ -1328,4 +1329,24 @@ body{
     overflow: auto;
     height: 100vh;
     padding: 36px 8px;
+}
+
+
+.hamburger{
+    color: #fff;
+    position: absolute;
+    font-size: 22px;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+
+.hamburger1{
+    color: #030104;
+    position: absolute;
+    font-size: 22px;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
 }
