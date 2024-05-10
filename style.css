@@ -1323,3 +1323,9 @@ body{
     text-align: center;
     font-weight: 600;
 }
+
+.report_right1{
+    overflow: auto;
+    height: 100vh;
+    padding: 22px;
+}
