@@ -792,11 +792,11 @@ body{
     border: 1px solid #e9e9e9;
     padding: 18px 18px;
     border-radius: 6px;
-    max-width: 470px;
-    width: 100%;
+    width: 470px;
     cursor: pointer;
     transition: all 0.4s;
     position: relative;
+    overflow-y: auto !important;
 }
 
 .Annual_Cost_main_1{
@@ -921,7 +921,8 @@ body{
 .desktop_right_1{
     border-radius: 26px;
     background-color: #2c3442;
-    width: 570px;
+    max-width: 570px;
+    width: 100%;
     height: 310px;
 }
 
@@ -961,6 +962,7 @@ body{
     align-items: center;
     gap: 14px;
     /* margin-top: 22px; */
+    flex-wrap: wrap;
 }
 .night_mpod_main_1{
     border-radius: 6px;
@@ -1019,6 +1021,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 12px;
+    flex-wrap: wrap;
 }
 
 
@@ -1144,6 +1147,18 @@ body{
     .login_left_p-1{
         font-size: 13px;
     }
+    .desktop_right_image{
+        width: 400px;
+    }
+    .night_mpod_main{
+        justify-content: center;
+    }
+    .desktop_right_2{
+        justify-content: center;
+    }
+    .main_green_power{
+        justify-content: center;
+    }
 }
 
 
@@ -1159,6 +1174,27 @@ body{
     }
     .warning_popup_main{
         padding-right: 20px;
+    }
+    .desktop_right_image{
+        width: 300px;
+    }
+    .image_2{
+        width: 320px;
+    }
+    .warning_error{
+        padding: 14px 10px !important;
+    }
+    .warning_error_1{
+        font-size: 12px;
+    }
+    .warning_error_2{
+        font-size: 12px;
+    }
+    .location_main_1_1{
+        font-size: 12px !important;
+    }
+    .location_main_1_image{
+        width: 290px !important;
     }
 }
 
@@ -1198,6 +1234,8 @@ body{
     align-items: center;
     gap: 10px;
     margin-top: 11px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .location_main_1_image{
@@ -1221,6 +1259,7 @@ body{
     display: flex;
     align-items: start;
     gap: 12px;
+    flex-wrap: wrap;
 }
 
 .reports_main{
